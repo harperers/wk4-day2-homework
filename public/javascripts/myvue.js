@@ -5,7 +5,7 @@ Vue.component('mycomments', {
     template: '<h2>Comments</h2>'
 });
 Vue.component('mychicken', {
-    template: '<aside id="photos"><img src="images/chili.jpg" alt="White Chicken Chili" width="180"></aside>'
+    template: '<aside id="photos"><img src="/public/images/chili.jpg" alt="White Chicken Chili" width="180"></aside>'
 });
 Vue.component('mycomments', {
     template: '<h2>Comments</h2>'
@@ -14,7 +14,7 @@ var app = new Vue({
     el: '#vueapp',
     data: {
         comment1: {
-            profile: 'profile.png',
+            profile: '/public/images/profile.png',
             author: '<span class="author">Brianna</span> — ',
             date: '<span class="date">February 18, 2021 @ 3:30 pm</span>',
             reply: 'REPLY',
@@ -24,7 +24,7 @@ var app = new Vue({
             bio: 'Food enthusiast. Love to cook and experiment. Into only organic, fat free, sugar free stuffs!'
         },
         comment2: {
-            profile: 'profile.png',
+            profile: '/public/images/profile.png',
             author: '<span class="author">LINH</span> — ',
             date: '<span class="date">February 15, 2021 @ 9:46 am</span>',
             reply: 'REPLY',
@@ -34,7 +34,7 @@ var app = new Vue({
             bio: 'Love food! Grew up with meat and potatoes. Recently venture outside my comfort zone. Loving everything I have been eating so far. Thai is my favorite at this time.'
         },
         comment3: {
-            profile: 'profile.png',
+            profile: '/public/images/profile.png',
             author: '<span class="author">CATHERINE LEONARDO</span> — ',
             date: '<span class="date">February 13, 2021 @ 12:58 pm</span>',
             reply: 'REPLY',
@@ -44,7 +44,7 @@ var app = new Vue({
             bio: 'I have to say I never was the adventurous type until 2 years ago. My boyfriend, who is of Japanese background, exposed me to other cultural food and I have never look back since!'
         },
         comment4: {
-            profile: 'profile.png',
+            profile: '/public/images/profile.png',
             author: '<span class="author">KALI</span> — ',
             date: '<span class="date">February 13, 2021 @ 11:31 am</span>',
             reply: 'REPLY',
